@@ -1,0 +1,43 @@
+// color
+$base-color:    #f00;
+$title-color:   #333;
+$desc-color:    #ddd;
+$error-color:   #f00;
+
+
+// size
+$font-size-xxxl: 40px;
+$font-size-xxl:  30px;
+$font-size-xl:   20px;
+$font-size-l:    18px;
+$font-size-m:    14px;
+$font-size-s:    12px;
+
+
+
+// 
+
+@mixin border1px () {
+    
+}
+
+@mixin wh($width, $height) {
+    width: $width;
+    height: $height;
+    display: block;
+}
+
+@mixin flex() {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin fullscreen($bg) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: $bg;
+}
